@@ -112,7 +112,8 @@ jobs:
             cd $GITHUB_WORKSPACE/kernel_workspace/android_kernel/out/arch/arm64/boot
             ls
             strings Image | grep "Linux version"
-            cp Image $GITHUB_WORKSPACE/kernel_workspace/src/Anykernel/
+            mkdir $GITHUB_WORKSPACE/kernel_workspace/src/Anykernel/kernels/miui/
+            cp Image $GITHUB_WORKSPACE/kernel_workspace/src/Anykernel/kernels/miui/
 
       - name: 8.上传刷机包
         uses: actions/upload-artifact@v4
