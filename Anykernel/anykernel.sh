@@ -5,7 +5,7 @@
 # begin properties
 properties() { '
 kernel.string=KernelSU Next SUSFS Kernel by clcwpwqi
-do.devicecheck=0
+do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
