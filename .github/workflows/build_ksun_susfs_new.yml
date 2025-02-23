@@ -48,6 +48,8 @@ jobs:
       - name: 4.修补KernelSU Next
         run: |
           ls
+          cd $GITHUB_WORKSPACE/kernel_workspace/android_kernel
+          cp $GITHUB_WORKSPACE/kernel_workspace/src/patches/* .
           echo "已经过预修复"
 
       - name: 5.修补susfs
