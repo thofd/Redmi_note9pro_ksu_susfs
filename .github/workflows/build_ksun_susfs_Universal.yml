@@ -1,4 +1,4 @@
-name: Build Kernel
+name: Build Kernel Universal Test
 run-name: Build Universal KernelSU Next susfs Test
 on:
   workflow_dispatch:
