@@ -1,4 +1,4 @@
-name: Build KSUN SUSFS Kernel
+name: Build KSUN SUSFS Kernel Test
 run-name: Build Kernel KSUN New Test
 on:
   workflow_dispatch:
