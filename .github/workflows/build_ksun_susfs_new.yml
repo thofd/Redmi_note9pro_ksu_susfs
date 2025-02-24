@@ -1,5 +1,5 @@
 name: Build KSUN SUSFS Kernel
-run-name: Build Kernel with KernelSU Next susfs
+run-name: Build Kernel KSUN New Test
 on:
   workflow_dispatch:
     inputs:
