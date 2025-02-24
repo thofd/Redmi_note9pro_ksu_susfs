@@ -1,5 +1,5 @@
 name: Build Kernel Kprobes Test
-run-name: Build Kernel with KernelSU Next susfs
+run-name: Build Kernel Kprobes Test
 on:
   workflow_dispatch:
     inputs:
