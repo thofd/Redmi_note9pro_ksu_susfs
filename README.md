@@ -18,5 +18,15 @@
 | 小米10  | umi  | 骁龙865 |
 | 小米10 Pro  | cmi  | 骁龙865 |
 
+### 名称解读
+#### 附件名称
+- 手机代号+内核特性.zip
+- 如：umi-KernelSU-Next-SUSFS.zip
+> 小米10 内核包含KernelSU Next与SUSFS
+#### 内核名称
+- 内核版本+作者名称+内核特性+构建时间+随机编码
+- 如：4.19.24-CLC-K-S-20250227-z9m7c3d3
+> 小米10 内核包含KernelSU Next与SUSFS 2025年2月27日编译
+
 > [!WARNING]
 >刷入前请确认手机已经解锁Bootloader并且适用于本内核，并且已经备份原boot！
