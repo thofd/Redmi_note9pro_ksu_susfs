@@ -1,6 +1,8 @@
 # Xiaomi 10/Pro KernelSU Next SUSFS automatic build
 Use GitHub Action to automatically build a kernel with KernelSU Next and SUSFS, including all the features of n0kernel.
 
+**[中文](README.md) [English](README_EN.md)**
+
 > [!WARNING]
 > Before flashing, please make sure that the phone has unlocked the Bootloader, make sure your device is suitable for flashing this kernel, and check that the device code matches the kernel card flash package you downloaded, and the original boot has been backed up!
 
