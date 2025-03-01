@@ -12,7 +12,7 @@
 - 源码基于[n0kernel](https://github.com/jhchong94/kernel_xiaomi_sm8250_n0kernel)
 
 ### 刷入指南
-1. 下载适用于您机型的内核卡刷包
+1. 从[发布页](https://github.com/clcwpwqi/xiaomi10-kernelsu-susfs-kernel-build/releases)下载适用于您机型的内核卡刷包，或Fork后自行编译
 2. 备份boot
 3. 使用twrp等第三方rec刷入，刷入前会检测设备代号及ROM信息
 > 如果提示没有适合您设备的内核，或设备代号检查不通过，请检查设备型号，设备ROM及卡刷包信息
