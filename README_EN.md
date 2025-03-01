@@ -13,7 +13,7 @@ Use GitHub Action to automatically build a kernel with KernelSU Next and SUSFS, 
 - The source code is based on [n0kernel](https://github.com/jhchong94/kernel_xiaomi_sm8250_n0kernel)
 
 ### Flashing guide
-1. Download the kernel flash package for your model
+1. Download the kernel card flash package for your model from the [release page](https://github.com/clcwpwqi/xiaomi10-kernelsu-susfs-kernel-build/releases), or fork and compile it yourself
 2. Back up boot
 3. Use third-party rec such as twrp to flash, and the device code and ROM information will be detected before flashing
 > If it is prompted that there is no kernel suitable for your device, or the device code check fails, please check the device model, device ROM and flash package information
