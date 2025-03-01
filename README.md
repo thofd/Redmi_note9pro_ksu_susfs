@@ -1,7 +1,7 @@
 # 小米10/Pro KernelSU Next SUSFS 自动构建
 利用GitHub Action自动构建带KernelSU Next与SUSFS的内核，包含n0kernel的所有特性。
 
-
+**[中文](README.md) [English](README_EN.md)**
 > [!WARNING]
 >刷入前请确认手机已经解锁Bootloader，请确保您的设备适合刷入此内核，并检查设备代号符合您所下载的内核卡刷包，并且已经备份原boot！
 
