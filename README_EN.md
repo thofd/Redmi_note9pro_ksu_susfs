@@ -12,6 +12,14 @@ Use GitHub Action to automatically build a kernel with KernelSU Next and SUSFS, 
 - The kernel is AnyKernel3 flash package
 - The source code is based on [n0kernel](https://github.com/jhchong94/kernel_xiaomi_sm8250_n0kernel)
 
+### Kernel features
+- Includes KernelSU Next and SUSFS
+- Full LTO build
+- Fast charging
+- HBM & DC Dimming support
+- KCAL Color Calibration
+- Other n0kernel kernel features and full functionality
+
 ### Flashing guide
 1. Download the kernel flash package for your model from the [release page](https://github.com/clcwpwqi/xiaomi10-kernelsu-susfs-kernel-build/releases), or fork and compile it yourself
 2. Back up boot
