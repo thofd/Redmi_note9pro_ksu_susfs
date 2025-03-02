@@ -8,7 +8,7 @@ Use GitHub Action to automatically build a kernel with KernelSU Next and SUSFS, 
 
 ### Kernel information
 - Xiaomi 10/Pro for Snapdragon 865
-- MIUI/HyperOS for Android 10-15
+- MIUI/HyperOS/AOSP for Android 11-15
 - The kernel is AnyKernel3 flash package
 - The source code is based on [n0kernel](https://github.com/jhchong94/kernel_xiaomi_sm8250_n0kernel)
 
