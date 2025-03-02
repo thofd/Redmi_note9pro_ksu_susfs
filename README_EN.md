@@ -4,7 +4,7 @@ Use GitHub Action to automatically build a kernel with KernelSU Next and SUSFS, 
 **[中文](README.md) [English](README_EN.md)**
 
 > [!WARNING]
-> Before flashing, please make sure that the phone has unlocked the Bootloader, make sure your device is suitable for flashing this kernel, and check that the device code matches the kernel card flash package you downloaded, and the original boot has been backed up!
+> Before flashing, please make sure that the phone has unlocked the Bootloader, make sure your device is suitable for flashing this kernel, and check that the device code matches the kernel flash package you downloaded, and the original boot has been backed up!
 
 ### Kernel information
 - Xiaomi 10/Pro for Snapdragon 865
@@ -13,7 +13,7 @@ Use GitHub Action to automatically build a kernel with KernelSU Next and SUSFS, 
 - The source code is based on [n0kernel](https://github.com/jhchong94/kernel_xiaomi_sm8250_n0kernel)
 
 ### Flashing guide
-1. Download the kernel card flash package for your model from the [release page](https://github.com/clcwpwqi/xiaomi10-kernelsu-susfs-kernel-build/releases), or fork and compile it yourself
+1. Download the kernel flash package for your model from the [release page](https://github.com/clcwpwqi/xiaomi10-kernelsu-susfs-kernel-build/releases), or fork and compile it yourself
 2. Back up boot
 3. Use third-party rec such as twrp to flash, and the device code and ROM information will be detected before flashing
 > If it is prompted that there is no kernel suitable for your device, or the device code check fails, please check the device model, device ROM and flash package information
@@ -27,13 +27,13 @@ Use GitHub Action to automatically build a kernel with KernelSU Next and SUSFS, 
 
 ### Name Interpretation
 #### Attachment Name
-- Device Code + Kernel Features.zip
+- Device Code + Kernel Features + File Type.zip
 
 umi-KernelSU-Next-SUSFS.zip
-> Xiaomi 10 kernel includes KernelSU Next and SUSFS
+> Xiaomi 10 kernel includes KernelSU Next and SUSFS, AnyKernel3 brush pack
 #### Kernel Name
-- Kernel Version + Author Name + Kernel Features + Build Time + Random Code
+- Kernel Version + Author Name + Device code + Kernel Features + Build Time + Random Code
 
-4.19.24-CLC-K-S-20250227-z9m7c3d3
+4.19.24-CLC-UMI-K-S-20250227-z9m7c3d3
 > Xiaomi 10 kernel includes KernelSU Next and SUSFS compiled on February 27, 2025
 >
