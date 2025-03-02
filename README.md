@@ -7,7 +7,7 @@
 
 ### 内核信息
 - 适用于骁龙865的小米10/Pro
-- 适用于安卓10-15的MIUI/HyperOS
+- 适用于安卓11-15的MIUI/HyperOS
 - 内核为AnyKernel3卡刷包
 - 源码基于[n0kernel](https://github.com/jhchong94/kernel_xiaomi_sm8250_n0kernel)
 
