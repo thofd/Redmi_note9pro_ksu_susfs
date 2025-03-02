@@ -12,9 +12,13 @@ on:
           - umi
           - cmi
       susfs:
-        description: '是否集成susfs'
+        description: '是否集成SUSFS：'
         required: true
-        type: boolean
+        default: 'SUSFS'
+        type: choice
+        options:
+          - SUSFS
+          - NoSUSFS
       version:
         description: '自定义版本名（如perf-xxx）可为空（则为n0kernel）'
         required: false
@@ -60,7 +64,7 @@ jobs:
 
       - name: 5.修补susfs
         run: |
-          if [ ${{ inputs.susfs }} = true ]; then
+          if [ ${{ inputs.susfs }} = 'SUSFS' ]; then
             echo "选择susfs修补"
             cd $GITHUB_WORKSPACE/kernel_workspace/android_kernel
             echo "复制susfs/kernel_patches/fs/"
@@ -119,6 +123,6 @@ jobs:
       - name: 8.上传刷机包
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ inputs.phone }}-KernelSU-Next-SUSFS-AnyKernel3
+          name: ${{ inputs.phone }}-KernelSU-Next-${{ inputs.susfs }}-AnyKernel3
           path: kernel_workspace/src/Anykernel/*
           retention-days: 3
