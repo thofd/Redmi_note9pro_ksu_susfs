@@ -92,10 +92,10 @@ jobs:
             echo "输入为空"
           fi
 
-          if [ ${{ inputs.phone }} = '小米10' ]; then
+          if [ ${{ inputs.phone }} = 'umi' ]; then
             echo "选择小米10配置"
             DEFCONFIG=vendor/umi_defconfig
-          elif [ ${{ inputs.phone }} = '小米10Pro' ]; then
+          elif [ ${{ inputs.phone }} = 'cmi' ]; then
             echo "选择小米10Pro配置"
             DEFCONFIG=vendor/cmi_defconfig
           else
