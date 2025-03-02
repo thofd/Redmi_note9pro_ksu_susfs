@@ -11,6 +11,14 @@
 - 内核为AnyKernel3卡刷包
 - 源码基于[n0kernel](https://github.com/jhchong94/kernel_xiaomi_sm8250_n0kernel)
 
+### 内核特性
+- 包含KernelSU Next与SUSFS
+- 完整LTO构建
+- 快充优化
+- 支持 HBM 和 DC 调光
+- KCAL 色彩校准
+- 其它n0kernel的内核特性和完整功能
+
 ### 刷入指南
 1. 从[发布页](https://github.com/clcwpwqi/xiaomi10-kernelsu-susfs-kernel-build/releases)下载适用于您机型的内核卡刷包，或Fork后自行编译
 2. 备份boot
