@@ -59,7 +59,7 @@ jobs:
           echo "进入源码目录"
           cd $GITHUB_WORKSPACE/kernel_workspace/android_kernel
           cp $GITHUB_WORKSPACE/kernel_workspace/src/patches/* .
-          patch -p1 < new_defconfig.patch
+          patch -p1 < new.patch
           patch -p1 < non-kprobes.patch
 
       - name: 5.修补susfs
@@ -98,10 +98,10 @@ jobs:
 
           if [ ${{ inputs.phone }} = 'umi' ]; then
             echo "选择小米10配置"
-            DEFCONFIG=vendor/umi_defconfig
+            DEFCONFIG=umi_defconfig
           elif [ ${{ inputs.phone }} = 'cmi' ]; then
             echo "选择小米10Pro配置"
-            DEFCONFIG=vendor/cmi_defconfig
+            DEFCONFIG=cmi_defconfig
           else
             echo "输入错误"
           fi
