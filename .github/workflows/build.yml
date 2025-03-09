@@ -3,14 +3,6 @@ run-name: Build Kernel with KernelSU Next susfs
 on:
   workflow_dispatch:
     inputs:
-      phone:
-        description: '选择手机型号：'
-        required: true
-        default: 'umi'
-        type: choice
-        options:
-          - umi
-          - cmi
       susfs:
         description: '是否集成SUSFS：'
         required: true
