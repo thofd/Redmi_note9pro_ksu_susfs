@@ -36,8 +36,8 @@ jobs:
       - name: 2.拉取源码与补丁
         run: |
           cd $GITHUB_WORKSPACE/kernel_workspace
-          git clone https://github.com/clcwpwqi/kernel_xiaomi_sm8250_n0kernel --depth=1 android_kernel
-          git clone https://github.com/clcwpwqi/kernel.git src
+          git clone https://github.com/thofd/neko_kernel_xiaomi_gauguin --depth=1 android_kernel
+          git clone https://github.com/thofd/Redmi_note9pro_ksu_susfs.git src
           git clone https://gitlab.com/simonpunk/susfs4ksu.git -b kernel-4.19 --depth=1 susfs
 
       - name: 3.添加KernelSU Next
