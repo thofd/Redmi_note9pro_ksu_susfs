@@ -2,7 +2,7 @@ diff --git a/arch/arm64/configs/vendor/gauguin_user_defconfig b/arch/arm64/confi
 index ad15c232f..ba3437036 100644
 --- a/arch/arm64/configs/vendor/gauguin_user_defconfig
 +++ b/arch/arm64/configs/vendor/gauguin_user_defconfig
-@@ -6098,3 +6098,26 @@ CONFIG_ARCH_HAS_DEVMEM_IS_ALLOWED=y
+@@ -6069,0 +6120,51 @@ CONFIG_ARCH_HAS_DEVMEM_IS_ALLOWED=y
  # CONFIG_DEBUG_ALIGN_RODATA is not set
  # CONFIG_ARM64_STRICT_BREAK_BEFORE_MAKE is not set
  # CONFIG_CORESIGHT is not set
@@ -29,15 +29,9 @@ index ad15c232f..ba3437036 100644
 +CONFIG_KSU_SUSFS_OPEN_REDIRECT=y
 +CONFIG_KSU_SUSFS_SUS_SU=y
 +CONFIG_TMPFS_XATTR=y
-\ No newline at end of file
-diff --git a/arch/arm64/configs/vendor/gauguin_user_defconfig b/arch/arm64/configs/vendor/gauguin_user_defconfig
-index 3fe623b6d..67bc5b45a 100644
---- a/arch/arm64/configs/vendor/gauguin_user_defconfig
-+++ b/arch/arm64/configs/vendor/gauguin_user_defconfig
-@@ -6100,3 +6100,26 @@ CONFIG_ARCH_HAS_DEVMEM_IS_ALLOWED=y
- # CONFIG_DEBUG_ALIGN_RODATA is not set
- # CONFIG_ARM64_STRICT_BREAK_BEFORE_MAKE is not set
- # CONFIG_CORESIGHT is not set
+# CONFIG_DEBUG_ALIGN_RODATA is not set
+# CONFIG_ARM64_STRICT_BREAK_BEFORE_MAKE is not set
+# CONFIG_CORESIGHT is not set
 +CONFIG_MODULES=y
 +CONFIG_KSU=y
 +CONFIG_KSU_SUSFS=y
@@ -61,4 +55,3 @@ index 3fe623b6d..67bc5b45a 100644
 +CONFIG_KSU_SUSFS_OPEN_REDIRECT=y
 +CONFIG_KSU_SUSFS_SUS_SU=y
 +CONFIG_TMPFS_XATTR=y
-\ No newline at end of file
